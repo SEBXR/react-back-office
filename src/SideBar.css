@@ -1,0 +1,46 @@
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  #mon-bouton {
+    margin: 5px;
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: rgb(221, 219, 219);
+    color: white;
+    font-weight: bold;
+    
+  }
+
+  #deconnexion{
+    margin: 5px;
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: rgb(221, 219, 219);
+    color: white;
+    font-weight: bold;
+  }
+
+  #deconnexion:hover{
+    background-color: red;
+  }
+
+  #mon-bouton:hover {
+    background-color: rgb(86, 152, 250);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h2{
+    margin-left: 50px;
+  }

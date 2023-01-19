@@ -1,0 +1,72 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 100px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #9ec8ff;
+  }
+
+  p{
+      margin-left: 250px;
+      font-weight: bold;
+  }
+
+  h1{
+    margin-left: 600px;
+  }
+
+  .tab2{
+    margin-top:  -125px;  
+    margin-left: 900px;
+  }
+  
+  .t2{
+    width: 500px;
+  }
+
+  .tab3{
+    margin-left: 450px;
+    width: 100%;
+    margin-top: 75px;
+  }
+
+  .p3{
+      margin-left: 300px;
+  }
+
+  .tabG{
+      margin-left: 500px;
+  }
+
+  .tabG1{
+      width: 100px;
+  }
+
+  .TableGeneral{
+    margin-left: 500px;
+  }
+
+  .tab1{
+    width: 1000px;
+    margin-left: 300px;
+}
+
+.tab2{
+    margin-left: 1100px;
+}
+
+.tab3{
+  width: 1000px;
+}
+
+.tabila{
+  margin-left: 500px;
+}
