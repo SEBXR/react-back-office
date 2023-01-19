@@ -14,7 +14,7 @@ function valider(idClient , budget , demande) {
         console.log(this.status)
         if(this.readyState === 4 && this.status === 200){
             let response = this.responseText;
-            if(response != 0){
+            if(response !== 0){
                 alert("Demande accepté !")
                 window.location.reload()
             }else{
