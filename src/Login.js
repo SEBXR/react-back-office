@@ -7,8 +7,8 @@ function login(event) {
     xhr.onreadystatechange = function () {
         if(this.readyState === 4 && this.status === 200){
             let response = this.responseText;
-            if(response !== 0){
-                window.location.href="stats"
+            if(response != 0){
+                window.location.href="/stats"
             }else{
                 alert('Erreur de Mot de passe ou email')
             }

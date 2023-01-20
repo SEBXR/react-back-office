@@ -23,7 +23,7 @@ function GestionElement() {
                 </tr>
                 {
                     categories.map((categ) => {
-                        let link = "https://react-back-office-production.up.railway.app/DetailTypeProduit?id="+categ.id
+                        let link = "/DetailTypeProduit?id="+categ.id
                         return (
                             <tr>
                                 <td>{categ.id}</td>
