@@ -8,7 +8,7 @@ function login(event) {
         if(this.readyState === 4 && this.status === 200){
             let response = this.responseText;
             if(response !== 0){
-                window.location.href="https://react-back-office-production.up.railway.app/stats"
+                window.location.href="stats"
             }else{
                 alert('Erreur de Mot de passe ou email')
             }
