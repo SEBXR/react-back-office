@@ -8,11 +8,11 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path='https://react-back-office-production.up.railway.app/' element={<Login/>}></Route>
-        <Route path='https://react-back-office-production.up.railway.app/stats' element={<Stats/>}></Route>
-        <Route path='https://react-back-office-production.up.railway.app/validation' element={<Validation/>}></Route>
-        <Route path='https://react-back-office-production.up.railway.app/GestionElement' element={<GestionElement/>}></Route>
-        <Route path='https://react-back-office-production.up.railway.app/DetailTypeProduit' element={<DetailTypeProduit/>}></Route>
+        <Route path='/' element={<Login/>}></Route>
+        <Route path='/stats' element={<Stats/>}></Route>
+        <Route path='/validation' element={<Validation/>}></Route>
+        <Route path='/GestionElement' element={<GestionElement/>}></Route>
+        <Route path='/DetailTypeProduit' element={<DetailTypeProduit/>}></Route>
       </Routes>
     </div>
   );
