@@ -27,7 +27,7 @@ function DetailTypeProduit() {
                         <td> {type.nom} </td>
                     </tr>))}
                 </table>
-                <Link to="/GestionElement">Retour</Link>
+                <Link to="https://react-back-office-production.up.railway.app/GestionElement">Retour</Link>
             </div>
         </div>
     );
